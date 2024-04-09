@@ -1,0 +1,72 @@
+html{
+    background-color: lightgrey;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.indice{
+    margin-left: 48%;
+    margin-right: 40%;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+.logo{
+transform:scale(1.1);
+transition: 500ms;  
+position: relative;
+margin-bottom: 5px;
+  
+}
+
+.nombre{
+    font-family: 'Alfa Slab One', serif;
+    font-size: 43px;
+    z-index: 100;
+}
+
+#titulocolorido:first-letter{
+    color: dodgerblue;
+    
+}
+
+.logoc{
+    height: 43px;
+    transform: scale(2.5);
+    padding: 20px;
+    z-index: 100;
+    margin-left: 40px;
+    margin-top: -105px;
+    position: fixed;
+}
+
+.texto{
+    font-family: 'Patua One', serif;
+}
+
+#nombre {
+    overflow: hidden;
+    background-color: grey;
+    position: sticky;
+    top: 0;
+    box-sizing: border-box;
+    width: 100%;
+    z-index: 99;
+}
+.nombre h1 {
+    float: center;
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.imagen1 {
+    float: left;
+    height: 400px;
+    width: auto;
+    margin: auto;
+  }
